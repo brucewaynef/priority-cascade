@@ -1,0 +1,16 @@
+# Персональные данные - НЕ заливай реальные конкурсные списки на GitHub
+*.csv
+!examples/sample_data/*.csv
+result.json
+result.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
